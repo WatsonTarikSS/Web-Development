@@ -1,0 +1,25 @@
+h1, main, footer{
+    width: 50%;
+    margin: auto;
+    list-style-position: inside;
+}
+section{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    color: #523553;
+}
+img{
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+h1, span, h2{
+    color: #CB5235;
+}
+h1, h2, footer, img{
+    text-align: center;
+}
+footer{
+    color: #523553;
+}

@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{background-color: #ca9494; height: 100vh; display: grid; grid-template-columns: 1fr 35%; grid-template-rows: 15% 60% 1fr  10%;}
+header{grid-column: 1/3; border: 1px solid black;}
+main{grid-column: 1/2; background-color: #94cac5;}
+aside{grid-column: 2/3; padding: 24px; display: grid; & article{display: grid; gap: 24px; overflow: auto;} & section{height: 180px; width: 100%; border: 1px solid black;}}
+.coments{grid-column: 1/2; grid-template-rows: 3/4;}
+.suggesions{grid-column: 2/3; grid-row: 2/3; padding: 24px;}
+::-webkit-scrollbar{display: none;}
+footer{grid-column: 1/3; border: 1px solid black;}
+@media (max-width: 768px) {body{grid-template-columns: 15% 60% 1fr 10%;} main{grid-column: 1/3;} aside{grid-row: 3/4;grid-column: 1/3;}}

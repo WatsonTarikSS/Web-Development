@@ -1,0 +1,5 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+form{border-radius: 20px; background: white; width: fit-content; padding: 20px; margin-top: 50px; & legend{font-size: 35px; color: #94bbca;} & #form{display: flex; justify-content: center; margin-bottom: 20px;} & #obs{display: flex; align-items: start;} & section{margin: 25px;} & #button{text-align: center;} & button{width: 80px; height: 30px; background: #94bbca; border: none; border-radius: 10px;} & button:hover{background: #82a6b4;} & label{color: #47859e; font-size: 18px;} & a{color: #1177a0;}}
+textarea, input, select{ height: 20px; font-size: 15px; accent-color: #94bbca; border: none; outline: 1.5px solid rgb(156, 156, 156); color: #47859e; &:focus{outline: 1.5px solid #47859e;}}
+body{background: #94bbca; align-items: center; justify-content: center; display: flex;}
+/* align-items (vertical)  justify-content(horizontal)*/

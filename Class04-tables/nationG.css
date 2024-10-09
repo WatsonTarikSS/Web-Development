@@ -1,0 +1,51 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+caption{
+    font-family: robo;
+    text-align: start;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+table{
+    margin: 20px;
+    border-collapse: collapse;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: rgb(221, 221, 221);
+}
+#nothing{
+    background-color: rgb(85, 85, 85);
+}
+#nullteam1, #nullteam2, #nullteam3, #nullteam4{
+    border-right: 1px solid rgba(0, 0, 0, 0.500);
+    width: 100px;
+    background-image: url(curintia.png);
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+th{
+    border-bottom: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+td{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+td:not(.no){
+    border-bottom: 1px solid rgba(0, 0, 0, 0.500);
+}
+@font-face {
+    font-family: "robo";
+    src: url(Roboto-BoldCondensed.ttf);
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="get">
+        <section id="form">
+            <legend>Formulário</legend>
+        </section>
+        <section>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name">
+        </section>
+        <section>
+            <label for="birth">Email:</label>
+            <input type="date" id="Email" name="birth">
+        </section>
+        <section>
+            <label for="phone">Whatsapp:</label>
+            <input type="number" id="phone" name="phone">
+        </section>
+        <section>
+            <label for="courses">Cursos:</label>
+            <select id="phones" name="courses">
+                <option value="Inf">Inf</option>
+                <option value="Adm">Adm</option>
+                <option value="Enf">Enf</option>
+            </select>
+        </section>
+        <section>
+            <span>
+                <label for="morning">Manhã:</label>
+                <input type="radio" id="shift" name="shift" value="morning">
+            </span>
+            <span>
+                <label for="afternoon">tarde:</label>
+                <input type="radio" id="shift" name="shift" value="afternoon">
+            </span>
+        </section>
+        <section id="obs">
+            <label for="obs">OBS:</label>
+            <textarea name="obs" id="obs"></textarea>
+        </section>
+        <section>
+            <span>
+                <input type="checkbox" id="term" name="term" value="true">
+                <label for="term">Concorda com os <a href="">termos de uso?</a></label>
+            </span>
+        </section>
+        <section id="button">
+            <button type="submit">Enviar</button>
+        </section>
+    </form>
+</body>
+</html>

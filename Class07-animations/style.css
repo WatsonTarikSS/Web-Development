@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.solarSys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sun img {
+    width: 160px;
+    animation: brawl 1s infinite linear;
+}
+.lineOrbit{
+border: 1px solid white;
+border-radius: 100%;
+}
+.earth{
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    animation: brawl 1s infinite linear;
+}
+.earth::after{
+    content: "";
+    display: block;
+    height: 56px;
+    width: 56px;
+    background-image: url(image-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(100%);
+}
+.moon{
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    animation: brawl 0.1s infinite linear;
+}
+.moon::after{
+    content: "";
+    display: block;
+    height: 32px;
+    width: 32px;
+    background-image: url(Ubisoft_logo-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: translate(10px);
+}
+@keyframes brawl {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
