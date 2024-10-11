@@ -50,7 +50,7 @@ border-radius: 100%;
     position: absolute;
     top: -40px;
     left: 10px;
-    animation: brawl 0.1s infinite linear;
+    animation: brawl 0.5s infinite linear;
 }
 .moon::after{
     content: "";
